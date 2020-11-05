@@ -48,10 +48,4 @@ def calculator():
             should_continue = False
             calculator()
 
-
-        # operation_symbol = input("Pick another operation: ")
-        # num3 = int(input("What's the next number?: "))
-        # next_answer = operations[operation_symbol](answer, num3)
-        # print(f"{answer} {operation_symbol} {num3} = {next_answer}")
-
 calculator()
