@@ -25,3 +25,10 @@ class Fish(Animal):
 nemo = Fish()
 nemo.swim()
 nemo.breathe()
+
+# slicing
+piano_keys = [1,2,3,4,5,6]
+print(piano_keys[2:5]) # 3,4,5
+
+keyboard_keys = (1,2,3,4,5,6)
+print(keyboard_keys[2:4])
